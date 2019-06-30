@@ -1,0 +1,44 @@
+.project {
+  float: left;
+  padding: 20px;
+  border: 0.2px solid #ecf0f1;
+  margin: 5px;
+  transition: 0.3s;
+}
+.project:hover .language {
+  color: #00a8ff;
+}
+.language {
+  color: #ecf0f1;
+  transition: 0.2s;
+}
+.source {
+  border: 0.2px solid #bdc3c7;
+  padding: 10px;
+  position: absolute;
+  border-radius: 25px;
+  position: relative;
+  float: left;
+  color: inherit;
+  font-weight: 700;
+  transition: 0.3s;
+  text-decoration: none;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.source:hover {
+  color: #ffff;
+  background-color: #000;
+  border: 0.2px solid transparent;
+}
+h1:hover {
+  cursor: pointer;
+}
+.container {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
