@@ -13,18 +13,25 @@ class App extends React.Component {
             name="Project 1"
             lang="C#"
             sourcelink="https://github.com/nerrma/Software2Assignment"
+            info="This was made using XYZ. I learnt XYZ."
           />
           <Project
             name="Project 2 "
             lang="Node JS"
             sourcelink="https://github.com/nerrma/nerch"
+            info="This was made using XYZ. I learnt XYZ."
           />
           <Project
             name="Project 3"
             lang="React JS"
             sourcelink="https://github.com/nerrma/react-portfolio"
+            info="This was made using XYZ. I learnt XYZ."
           />
-          <Project name="Project 4" lang="Python" info="This was made using " />
+          <Project
+            name="Project 4"
+            lang="Python"
+            info="This was made using XYZ. I learnt XYZ."
+          />
         </div>
       </>
     );
