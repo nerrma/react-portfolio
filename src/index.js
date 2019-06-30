@@ -2,8 +2,6 @@ import React from "react";
 import { render } from "react-dom";
 import "./index.css";
 import Project from "./Projects/projects";
-import Modal from "./Modal/modal";
-import backdrop from "./Backdrop/backdrop";
 import * as serviceWorker from "./serviceWorker";
 
 class App extends React.Component {
